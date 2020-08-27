@@ -1,11 +1,11 @@
 {
-    "name": "JTransit",
+    "name": "JTransit - Cebu Jeepney Navigation",
     "short_name": "JTransit",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "JTransit",
+    "description": "Must have app for commuters in Cebu. JTransit provides one or more ways to navigate the city via public transportation.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
