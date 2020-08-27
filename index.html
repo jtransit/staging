@@ -7,12 +7,33 @@
 
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="jtransit">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+
   <title>jtransit</title>
   <link rel="manifest" href="manifest.json">
+
+  <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
+
+  <script>
+    var firebaseConfig = {
+      apiKey: "AIzaSyCYH4g9DiqYOroFfTeR7dSvqPyjgfpKMa0",
+      authDomain: "jtransit-ec1e5.firebaseapp.com",
+      databaseURL: "https://jtransit-ec1e5.firebaseio.com",
+      projectId: "jtransit-ec1e5",
+      storageBucket: "jtransit-ec1e5.appspot.com",
+      messagingSenderId: "49704783946",
+      appId: "1:49704783946:web:0b0a2d824a2fffcac796b3",
+      measurementId: "G-YTQBTT7G09"
+    };
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
 </head>
 <body>
   <!-- This script installs service_worker.js to provide PWA functionality to
@@ -25,7 +46,6 @@
       });
     }
   </script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJVQqVLpK54DuVW-U7ksZrJHHt0Y4fd90"></script>
   <script src="main.dart.js" type="application/javascript"></script>
 </body>
 </html>
