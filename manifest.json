@@ -1,11 +1,11 @@
 {
-    "name": "JTransit - Cebu Jeepney Navigation",
-    "short_name": "JTransit",
+    "name": "jtransit",
+    "short_name": "jtransit",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Must have app for commuters in Cebu. JTransit provides one or more ways to navigate the city via public transportation.",
+    "description": "A new Flutter project.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
